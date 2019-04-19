@@ -4,10 +4,10 @@ function produceDrivingRange(blockRange) {
     let blocksDesired = Math.abs(parseInt(start) - parseInt(end));
     let blocksTotal = blockRange - blocksDesired;
 
-    if (totals >= 0) {
-        return `Within range by ${totals}`;
+    if (blocksTotal >= 0) {
+        return `Within range by ${blocksTotal}`;
     } else {
-        return `Out of range by ${totals}`;
+        return `Out of range by ${blocksTotal}`;
     }
   };
 }
