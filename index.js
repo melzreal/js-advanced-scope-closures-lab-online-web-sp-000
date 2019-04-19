@@ -1,6 +1,6 @@
-function retailPriceMaker(produceDrivingRange) {
-  return function(marketMultiplier) {
-    return marketMultiplier - produceDrivingRange;
+function produceDrivingRange(blocks) {
+  return function(blockRange) {
+    return blocks - blockRange;
   };
 }
 
