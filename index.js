@@ -7,7 +7,7 @@ function produceDrivingRange(blockRange) {
     if (blocksTotal >= 0) {
         return `within range by ${blocksTotal}`;
     } else {
-        return `Out of range by ${blocksTotal}`;
+        return `${blocksTotal} out of range`;
     }
   };
 }
