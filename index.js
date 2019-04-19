@@ -5,7 +5,7 @@ function produceDrivingRange(blockRange) {
     let blocksTotal = blockRange - blocksDesired;
 
     if (blocksTotal >= 0) {
-        return `Within range by ${blocksTotal}`;
+        return `within range by ${blocksTotal}`;
     } else {
         return `Out of range by ${blocksTotal}`;
     }
