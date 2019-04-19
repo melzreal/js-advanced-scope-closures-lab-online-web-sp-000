@@ -2,7 +2,7 @@ function produceDrivingRange(block1, block2) {
   return function(blockRange) {
 
     let totals = block1 + 8 - block2;
-    if (totals > 0) {
+    if (totals >= 0) {
         return `Within range by ${totals}`;
     } else {
         return `Out of range by ${totals}`;
